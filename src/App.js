@@ -46,7 +46,7 @@ export default function App() {
   }, []);
 
   const signIn = () => {
-    Auth.federatedSignIn({ provider: 'Google' });
+    Auth.federatedSignIn({ provider: ['Google', 'LoginWithAmazon'] });
   };
 
   const signOut = async () => {

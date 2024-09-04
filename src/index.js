@@ -15,8 +15,8 @@ Amplify.configure({
     oauth: {
       domain: process.env.REACT_APP_COGNITO_DOMAIN,
       scope: ["email", "openid", "phone"],
-      redirectSignIn: "http://localhost:3000/",
-      redirectSignOut: "http://localhost:3000/",
+      redirectSignIn: "https://main.d3svpsgms0cimi.amplifyapp.com/",
+      redirectSignOut: "https://main.d3svpsgms0cimi.amplifyapp.com/",
       responseType: "token",
     },
   },
